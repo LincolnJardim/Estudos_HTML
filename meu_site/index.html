@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/George-Ui-Ancient-Legend-Help-Book.256.png" type="image/x-icon">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
@@ -20,51 +23,57 @@
 
     <main>
 
-        <section>
-            <h2>Sobre mim:</h2>
+        <section class="sobre">
+            <h2>Sobre mim</h2>
             <p>Me chamo Lincoln Jardim, tenho 27 anos, sou formado em Gastronomia e estou migrando para área de tecnologia.</p>
-            <p>Sou estudante de Ciência da Computação, na FMU e estou no 3º semestre. Atualmente, estou estudando:</p>
+            <p>Sou estudante de Ciência da Computação, na FMU e estou no 4º semestre. Atualmente, estou estudando:</p>
         </section>
 
-        <section>
+        <section class="galeria">
+            <img class="icone" src="imagens/free-c-sustenido-icon-svg-download-png-1175241.webp" alt="Logo C#">
+            <img class="icone" src="imagens/logopython-full.png" alt="Logo do Python">
+            <img class="icone" src="imagens/logohtml.png" alt="Logo do HTML">
+            <img class="icone" src="imagens/logocss.png" alt="Logo do CSS">
+            <img class="icone" src="imagens/java_icon.png" alt="Icone Javascript">
+            <img class="icone" src="imagens/logoexcel.png" alt="Logo do Excel">
+            <img class="icone" src="imagens/logomysql-full.png" alt="Logo do MYSQL">
+        </section>
+
+        <!-- <section class="skills">
             <ul>
+                <li>C# e .Net</li>
                 <li>Python</li>
+                <li>JavaScript</li>
                 <li>HTML 5</li>
                 <li>CSS 3</li>
                 <li>Excel</li>
                 <li>SQL com MySQL</li>
             </ul>
-        </section>
+        </section> -->
 
         <section>
             <h2>Meus contatos e minhas redes:</h2>
             
-                <ul>
-                <li>
-                    Entre em contato comigo:
-                    <ol>
-                        <li>Whatsapp: 11-95806-6632</li>
-                        <li>E-mail: linconl11@hotmail.com</li>
-                    </ol>
-                <li>
-                    Minhas redes públicas
-                    <ol>
-                        <li><a href="https://github.com/LincolnJardim" target="_blank" rel="external">Meu repositório público no GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/lincoln-alves-245857197" target="_blank" rel="external">Meu Linkedin</a></li>
-                    </ol>
-                </li>
-                </li>
-            </ul>
+            <div class="contatos">
+                <a href="https://wa.me/5511958033632" target="_blank">
+                    <img class="icone" src="imagens/icone-whatsapp.webp" alt="Link para meu Whatsapp">
+                </a>
+                <a href="mailto:linconl11@hotmail.com" target="_blank">
+                    <img class="icone" src="imagens/icone-email.webp" alt="Link para o meu E-mail">
+                </a>
+                <a href="https://github.com/LincolnJardim" target="_blank">
+                    <img class="icone" src="imagens/icone-github.webp" alt="Link para o meu GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/lincoln-alves-245857197/" target="_blank">
+                    <img class="icone" src="imagens/icone-linkedin.webp" alt="Link para o meu LinkedIn">
+                </a>
+            </div>
+            
+            
         </section>
         
 
-        <div class="galeria">
-            <img src="imagens/logopython-full.png" alt="Logo do Python">
-            <img src="imagens/logohtml.png" alt="Logo do HTML">
-            <img src="imagens/logocss.png" alt="Logo do CASS">
-            <img src="imagens/logoexcel.png" alt="Logo do Excel">
-            <img src="imagens/logomysql-full.png" alt="Logo do MYSQL">
-        </div>
+    
 
 
     </main>

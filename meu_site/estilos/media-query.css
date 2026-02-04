@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --letra: #E5A01E;
+
+    --cor0: #6bb5ff;
+    --cor1: #1f8fff;
+    --cor2: #1872cc;
+    --cor3: #0f4780;
+    --cor4: #072E61;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints
+Pequenas telas: até 480px
+Celular: 481px – 768px
+Tablets: 769px – 1024px
+Desktop: 1025px – 1440px
+Grande telas: acima de 1440px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+    background-color: #6bb5ff;
+    font-family: var(--fonte-padrao);
+    }   
+
+    header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    font-family: var(--fonte-destaque);
+    padding: 30px;
+    }
+
+    header > h1{
+    color: var(--letra);
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+    padding: 10px;
+    
+
+    font-size: 3em;
+
+    }
+
+    header > p {
+    color: var(--letra);
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+    font-size: 2em;
+    margin: auto;
+    }
+
+    nav {
+    background-color: #072E61;
+    padding: 10px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    nav > a:hover {
+        background-color: #E5A01E;
+        padding: 10px;
+        transition-duration: 0.5s;
+    }
+
+    main{
+        margin: auto;
+        background-color: white;
+        width: 93vw;
+        padding: 10px;
+    
+    }
+
+    section > h2 {
+    background-color: var(--cor2);
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #072e6162;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+
+    section > p {
+    text-align: center;
+    padding: 10px;
+    }
+}
